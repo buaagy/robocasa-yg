@@ -36,38 +36,38 @@ DOWNLOAD_ASSET_REGISTRY = {
         message="Downloading environment textures",
         url=_get_direct_download_url(BOX_LINKS["textures"]),
         folder=os.path.join(robocasa.__path__[0], "models/assets/textures"),
-        check_folder_exists=False,
+        check_folder_exists=True,
     ),
     "tex_generative": dict(
         message="Downloading AI-generated environment textures",
         url=_get_direct_download_url(BOX_LINKS["generative_textures"]),
         folder=os.path.join(robocasa.__path__[0], "models/assets/generative_textures"),
-        check_folder_exists=False,
+        check_folder_exists=True,
     ),
     "fixtures_lw": dict(
         message="Downloading lightwheel fixtures",
         url=_get_direct_download_url(BOX_LINKS["fixtures_lightwheel"]),
         folder=os.path.join(robocasa.__path__[0], "models/assets/fixtures"),
-        check_folder_exists=False,
+        check_folder_exists=True,
     ),
     ### objects ###
     "objs_objaverse": dict(
         message="Downloading objaverse objects",
         url=_get_direct_download_url(BOX_LINKS["objaverse"]),
         folder=os.path.join(robocasa.__path__[0], "models/assets/objects/objaverse"),
-        check_folder_exists=False,
+        check_folder_exists=True,
     ),
     "objs_aigen": dict(
         message="Downloading AI-generated objects",
         url=_get_direct_download_url(BOX_LINKS["aigen_objs"]),
         folder=os.path.join(robocasa.__path__[0], "models/assets/objects/aigen_objs"),
-        check_folder_exists=False,
+        check_folder_exists=True,
     ),
     "objs_lw": dict(
         message="Downloading lightwheel objects",
         url=_get_direct_download_url(BOX_LINKS["objects_lightwheel"]),
         folder=os.path.join(robocasa.__path__[0], "models/assets/objects/lightwheel"),
-        check_folder_exists=False,
+        check_folder_exists=True,
     ),
 }
 
